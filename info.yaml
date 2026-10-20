@@ -55,10 +55,10 @@ pinout:
   uio[7]: ""
 
   # Analog pins - make sure to also set "analog_pins" above, else the pins won't be connected
-  ua[0]: ""
-  ua[1]: ""
-  ua[2]: ""
-  ua[3]: ""
+  ua[0]: "INP (non-inverting input)"
+  ua[1]: "INN (inverting input)"
+  ua[2]: "VCTRL (voltage controlled Gm)"
+  ua[3]: "OUT (analog output)"
   ua[4]: ""
   ua[5]: ""
 
